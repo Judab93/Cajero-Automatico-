@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto";
+    background: #4568DC;
+    background: -webkit-linear-gradient(to rigth, #b06ab3, #4568DC);
+    background: linear-gradient(to rigth, #b06ab3, #4568dc);
+    height: 650PX;
+    display: Flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    padding: 40px;
+    border-radius: 10px;
+}

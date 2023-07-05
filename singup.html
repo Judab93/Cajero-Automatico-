@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="singUpForms">
+        <div class="mb-3">
+          <h1>Diligencia el fomulario</h1>
+          <div class="mb-3">
+            <label for="Name" class="form-label">name</label>
+            <input type="text" class="form-control" id="Name"> <span class ="barra"></span>
+          <label for="Exampletelefono" class="form-label">   Numero de Telefono</label>
+          <input type="tel" class="form-control" id="Tel" aria-describedby="tel" required><span class="barra"></span>
+          <div id="emailHelp" class="form-text">Digite su numero de telefono</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="Password"> <span class ="barra"></span>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" id="submit" class="btn btn-primary">Registro</button>
+      </form>
+    <Script src="JS/Singup.js"></Script>
+</body>
+</html>
